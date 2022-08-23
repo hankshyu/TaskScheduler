@@ -44,7 +44,7 @@ Task 3|4 |1 |16’d3|
 Task 4|5 |4 |16’d4|
 
 ### 2.Shortest Remaining Job First
-*a preemptive version of Shortest Job First(SJF)*
+*preemptive version of Shortest Job First(SJF)*
 
 - Abbreviated as SRJF
 - Prioritize the task with shortest remaining time
