@@ -2,7 +2,7 @@
 
 <img alt="GitHub License" src="https://img.shields.io/github/license/hankshyu/TaskScheduler?color=orange&logo=github"> <img alt="GitHub release (latest SemVer)" src="https://img.shields.io/github/v/release/hankshyu/TaskScheduler?color=orange&logo=github"> <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/hankshyu/TaskScheduler"> <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/hankshyu/TaskScheduler"> <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/hankshyu/TaskScheduler"> <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/hankshyu/TaskScheduler?logo=git&color=green"> <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/y/hankshyu/TaskScheduler?logo=git&color=green">  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/hankshyu/TaskScheduler?logo=git&color=green">
 
-### a hardware task scheduler design
+a hardware task scheduler design
 
 ## Scheduling Algorithm Module I/O ports
 
@@ -26,8 +26,8 @@ module Scheduling_Algorithm(  input clk,
 |output |empty | fired when no task under schedule
 |output|task_out |output the scheduled task under current cycle
 
-
-## 1.First-Come, First Served
+## Scheduling Algorithms
+### 1.First-Come, First Served
 
 *simplest scheduling algorithm*
 - Abbreviated as FCFS
@@ -43,7 +43,7 @@ Task 2|2 |4 |16’d2|
 Task 3|4 |1 |16’d3|
 Task 4|5 |4 |16’d4|
 
-## 2.Shortest Remaining Job First
+### 2.Shortest Remaining Job First
 *a preemptive version of Shortest Job First(SJF)*
 
 - Abbreviated as SRJF
@@ -59,7 +59,7 @@ Task 2|2 |4 |16’d2|
 Task 3|4 |1 |16’d3|
 Task 4|5 |4 |16’d4|
 
-## 3.Shortest Job First
+### 3.Shortest Job First
 *a non-preemptive approach*
 
 - Abbreviated as SJF
@@ -69,7 +69,7 @@ Task 4|5 |4 |16’d4|
 - Illustration:
 
 
-## 4.Round Robin
+### 4.Round Robin
 *everyone gets to play*
 
 - Abbreviated as RR
