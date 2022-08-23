@@ -52,12 +52,6 @@ Task 4|5 |4 |16’d4|
 - Has the potential for **starvation** - high priority task keep executing and low priority ones get blocked for indefinite time
 - Illustration:
 
-| |Arrival time|Burst time|Payload
-|:---|:--:|:--:|:--:|
-Task 1|0 |7| 16’d1|
-Task 2|2 |4 |16’d2|
-Task 3|4 |1 |16’d3|
-Task 4|5 |4 |16’d4|
 
 ### 3.Shortest Job First
 *a non-preemptive approach*
@@ -79,4 +73,7 @@ Task 4|5 |4 |16’d4|
   - If too big, it degrades into FCFS.
   - If too small, overhead of content switching is too high
 - Illustration (Time Quantum = 2):
+
+## Testbench
+
 
