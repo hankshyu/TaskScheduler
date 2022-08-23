@@ -34,7 +34,7 @@ module Scheduling_Algorithm( input clk,
 - Task that request first gets allocated first
 - Usually comes with a **long waiting time**
 - May lead to **convoy effect** - all tasks wait for a big one to get off
-- Illustration:
+
 
 | |Arrival time|Burst time|Payload
 |:---|:--:|:--:|:--:|
@@ -50,7 +50,7 @@ Task 4|5 |4 |16’d4|
 - Prioritize the task with shortest remaining time
 - Advantageous because short processes are handled very quickly 
 - Has the potential for **starvation** - high priority task keep executing and low priority ones get blocked for indefinite time
-- Illustration:
+
 
 
 ### 3.Shortest Job First
@@ -60,7 +60,6 @@ Task 4|5 |4 |16’d4|
 - Task having the smallest execution time is chosen for the next execution
 - May cause very **long turnaround times**
 - Also has the potential for **starvation**
-- Illustration:
 
 
 ### 4.Round Robin
@@ -72,8 +71,17 @@ Task 4|5 |4 |16’d4|
 - Depends on the selection of time quantum.
   - If too big, it degrades into FCFS.
   - If too small, overhead of content switching is too high
-- Illustration (Time Quantum = 2):
 
 ## Testbench
+
+### 1.Test 1
+*4 Tasks on all above mentioned scheduling algorithms*
+
+### 2.Test 2
+*6 Tasks on all above mentioned scheduling algorithms*
+
+
+### 2.Test 2
+*5 Tasks on all above mentioned scheduling algorithms*
 
 
