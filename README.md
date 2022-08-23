@@ -58,3 +58,23 @@ Task 2|2 |4 |16’d2|
 Task 3|4 |1 |16’d3|
 Task 4|5 |4 |16’d4|
 
+## 3.Shortest Job First
+*a non-preemptive approach*
+
+- Task having the smallest execution time is chosen for the next execution
+- May cause very **long turnaround times**
+- Also has the potential for **starvation**
+- Illustration:
+
+
+## 4.Round Robin
+Round Robin
+*everyone gets to play*
+
+- Each task is assigned a fixed time slot in a cyclic way 
+- Doesn’t face the issues of convoy effect or starvation.
+- Depends on the selection of time quantum.
+  - If too big, it degrades into FCFS.
+  - If too small, overhead of content switching is too high
+- Illustration (with Time Quantum = 2):
+
