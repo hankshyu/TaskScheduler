@@ -14,7 +14,7 @@ module Scheduling_Algorithm( input clk,
                              input[20-1 : 0] task_in,
                              output empty,
                              output reg [16-1 : 0] task_out
-);
+                           );
 ```
 
 |  I/O    | Signal name  | Signal definition
