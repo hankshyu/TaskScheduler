@@ -78,5 +78,5 @@ Task 4|5 |4 |16’d4|
 - Depends on the selection of time quantum.
   - If too big, it degrades into FCFS.
   - If too small, overhead of content switching is too high
-- Illustration (with Time Quantum = 2):
+- Illustration (Time Quantum = 2):
 
