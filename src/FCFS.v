@@ -1,36 +1,31 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company:
-// Engineer:
-//
-// Create Date: 2021/11/15 22:49:35
-// Design Name:
-// Module Name: FCFS
-// Project Name:
-// Target Devices:
-// Tool Versions:
-// Description:
-//
-// Dependencies:
-//
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
+// Engineer:        Tzu-Han Hsu
+// Create Date:     2021/11/15 22:49:35
+// Module Name:     FCFS
+// Project Name:    TaskScheduler
+// Description:     This module implements the First-Come, First Served Task 
+//                  Scheduling(FCFS) Algorithm.It's a combinational logic, which
+//                  determines the execution of tasks under schdule under each clock cycle.
+// 
+// Dependencies:    None
 //
 //////////////////////////////////////////////////////////////////////////////////
+
 `define rm0 store[0][19:16]
 `define rm1 store[1][19:16]
 `define rm2 store[2][19:16]
 `define rm3 store[3][19:16]
 `define rm4 store[4][19:16]
-module Scheduling_Algorithm(input clk,
-                            input rst,
-                            input st,
-                            input inputtask,
-                            input [20-1:0] task_in,
-                            output empty,
-                            output reg [16-1:0] task_out
-);
+
+module FCFS( input clk,
+             input rst,
+             input st,
+             input inputtask,
+             input [20-1:0] task_in,
+             output empty,
+             output reg [16-1:0] task_out
+            );
     
     integer i;
     reg [1:0] current_state,next_state;
@@ -111,6 +106,5 @@ module Scheduling_Algorithm(input clk,
                 task_out = store[4][15:0];
         end
     end
-
 
 endmodule

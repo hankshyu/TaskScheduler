@@ -1,22 +1,18 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
+// Engineer:        Tzu-Han Hsu
+// Create Date:     2021/11/16 21:06:06
+// Module Name:     t_Scheduler
+// Project Name:    TaskScheduler
+// Description:     This is the testbench program of the TaskScheduler Program.
+//                  It instatniates 4 scheduling algorithm modules and test them with
+//                  4 distinct tests simultaneously
 // 
-// Create Date: 2021/11/16 21:06:06
-// Design Name: 
-// Module Name: t_SJF
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
+// Dependencies:    FCFS.v
+//                  RoundRobin.v
+//                  SJF.v
+//                  SRJF.v
+//
 //////////////////////////////////////////////////////////////////////////////////
 
 
