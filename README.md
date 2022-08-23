@@ -43,3 +43,18 @@ Task 2|2 |4 |16’d2|
 Task 3|4 |1 |16’d3|
 Task 4|5 |4 |16’d4|
 
+## 2.Shortest Remaining Job First
+*a preemptive version of Shortest Job First(SJF)*
+
+- Prioritize the task with shortest remaining time
+- Advantageous because short processes are handled very quickly 
+- Has the potential for **starvation** - high priority task keep executing and low priority ones get blocked for indefinite time
+- Illustration:
+
+| |Arrival time|Burst time|Payload
+|:---|:--:|:--:|:--:|
+Task 1|0 |7| 16’d1|
+Task 2|2 |4 |16’d2|
+Task 3|4 |1 |16’d3|
+Task 4|5 |4 |16’d4|
+
