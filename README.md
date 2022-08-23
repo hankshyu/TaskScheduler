@@ -27,3 +27,12 @@ module Scheduling_Algorithm(  input clk,
 |output|task_out |output the scheduled task under current cycle
 
 
+## 1.First-Come, First Served
+
+*simplest scheduling algorithm*
+
+- Task that request first gets allocated first
+- Usually comes with a **long waiting time**
+- May lead to **convoy effect** - all tasks wait for a big one to get off
+- Illustration:
+
