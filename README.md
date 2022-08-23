@@ -7,13 +7,13 @@ a hardware task scheduler design
 ## Scheduling Algorithm Module I/O ports
 
 ```
-module Scheduling_Algorithm(  input clk,
-                              input rst,
-                              input st,
-                              input inputtask,
-                              input[20-1 : 0] task_in,
-                              output empty,
-                              output reg [16-1 : 0] task_out
+module Scheduling_Algorithm( input clk,
+                             input rst,
+                             input st,
+                             input inputtask,
+                             input[20-1 : 0] task_in,
+                             output empty,
+                             output reg [16-1 : 0] task_out
 );
 ```
 
