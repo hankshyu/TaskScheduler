@@ -77,11 +77,23 @@ Task 4|5 |4 |16’d4|
 ### 1.Test 1
 *4 Tasks on all above mentioned scheduling algorithms*
 
+<img src="docs/pictures/T1_Q.png" alt="T1Q" width="450"/>
+<img src="docs/pictures/T1_answer.png" alt="T1A"  width="1000"/> 
+<img src="docs/pictures/T1_wvform.png" alt="T1WV" width = "1000"/>
+
+
 ### 2.Test 2
 *6 Tasks on all above mentioned scheduling algorithms*
 
+<img src="docs/pictures/T2_Q.png" alt="T2Q" width="450"/>
+<img src="docs/pictures/T2_answer.png" alt="T2A"  width="1000"/> 
+<img src="docs/pictures/T2_wvform.png" alt="T2WV" width = "1000"/>
 
 ### 2.Test 2
 *5 Tasks on all above mentioned scheduling algorithms*
+
+<img src="docs/pictures/T3_Q.png" alt="T3Q" width="450"/>
+<img src="docs/pictures/T3_answer.png" alt="T3A"  width="1000"/> 
+<img src="docs/pictures/T3_wvform.png" alt="T3WV" width = "1000"/>
 
 
