@@ -30,7 +30,7 @@ module Scheduling_Algorithm(  input clk,
 ## 1.First-Come, First Served
 
 *simplest scheduling algorithm*
-
+- Abbreviated as FCFS
 - Task that request first gets allocated first
 - Usually comes with a **long waiting time**
 - May lead to **convoy effect** - all tasks wait for a big one to get off
@@ -46,6 +46,7 @@ Task 4|5 |4 |16’d4|
 ## 2.Shortest Remaining Job First
 *a preemptive version of Shortest Job First(SJF)*
 
+- Abbreviated as SRJF
 - Prioritize the task with shortest remaining time
 - Advantageous because short processes are handled very quickly 
 - Has the potential for **starvation** - high priority task keep executing and low priority ones get blocked for indefinite time
@@ -61,6 +62,7 @@ Task 4|5 |4 |16’d4|
 ## 3.Shortest Job First
 *a non-preemptive approach*
 
+- Abbreviated as SJF
 - Task having the smallest execution time is chosen for the next execution
 - May cause very **long turnaround times**
 - Also has the potential for **starvation**
@@ -68,9 +70,9 @@ Task 4|5 |4 |16’d4|
 
 
 ## 4.Round Robin
-Round Robin
 *everyone gets to play*
 
+- Abbreviated as RR
 - Each task is assigned a fixed time slot in a cyclic way 
 - Doesn’t face the issues of convoy effect or starvation.
 - Depends on the selection of time quantum.
