@@ -36,3 +36,10 @@ module Scheduling_Algorithm(  input clk,
 - May lead to **convoy effect** - all tasks wait for a big one to get off
 - Illustration:
 
+| |Arrival time|Burst time|Payload
+|:---|:--:|:--:|:--:|
+Task 1|0 |7| 16’d1|
+Task 2|2 |4 |16’d2|
+Task 3|4 |1 |16’d3|
+Task 4|5 |4 |16’d4|
+
