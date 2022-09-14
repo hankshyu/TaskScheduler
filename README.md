@@ -4,6 +4,8 @@
 
 A hardware task scheduler design.
 
+**Parts of the contribution in FCFS model and SRJF module is made by [Eric Chun-Yu](https://github.com/Eric-Chun-Yu)**
+
 ## Scheduling Algorithm Module I/O ports
 
 ```
@@ -96,5 +98,5 @@ Task 4|5 |4 |16’d4|
 <img src="docs/pictures/T3_answer.png" alt="T3A"  width="1000"/> 
 <img src="docs/pictures/T3_wvform.png" alt="T3WV" width = "1000"/>
 
----
-Parts of the contribution in FCFS model and SRJF module is made by Eric Chun-Yu
+
+
