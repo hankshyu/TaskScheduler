@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Engineer:        Tzu-Han Hsu, Eric Chun-Yu
+// Engineer:        Tzu-Han Hsu
 // Create Date:     2021/11/15 22:49:35
 // Module Name:     SJF
 // Project Name:    TaskScheduler
